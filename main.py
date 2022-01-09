@@ -5,3 +5,4 @@ def fact(a):
     else:
         return a*fact(a-1)
 print("Factorial of %d is : %d"%(a,fact(a)))
+print("It is executed")
